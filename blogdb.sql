@@ -41,7 +41,7 @@ CREATE TABLE `blog` (
 
 LOCK TABLES `blog` WRITE;
 /*!40000 ALTER TABLE `blog` DISABLE KEYS */;
-INSERT INTO `blog` VALUES (1,'hello world','description','this is my first sql',22,2,0,'2015-11-05 14:29:36'),(2,'hello china','description','this is good',NULL,0,0,NULL),(3,'hola espaniol','description','muy bien',NULL,0,1,NULL),(4,'why people laugh','reason','hahahahah',NULL,0,0,'2012-12-03 14:29:36'),(5,'machine learning','deep learning','computer vision is part of it ',36,1,1,'2012-12-03 15:29:36'),(6,'this is just test ','nothing important','this is just test data and never vital ',37,1,1,'2012-12-03 15:29:36'),(7,'testtitle','main idea','sand is everywhere ',55,1,0,'2014-12-03 15:29:36'),(8,'camel in the sand','ouououou','day and night are switching in betwn',55,1,0,'2004-12-03 15:29:36'),(9,'street workout is awesome','push up','you gotta do it everyday',55,1,0,'2005-12-03 15:29:36'),(10,'sherry','love','treat her well',52,0,1,'2019-12-31 15:29:36');
+INSERT INTO `blog` VALUES (1,'hello world','description','this is my first sql',1,2,0,'2015-11-05 14:29:36'),(2,'hello china','description','this is good',2,0,2,'2002-11-09 13:44:21'),(3,'hola espaniol','description','muy bien',1,0,1,'2003-12-04 13:44:21'),(4,'why people laugh','reason','hahahahah',2,0,0,'2012-12-03 14:29:36'),(5,'machine learning','deep learning','computer vision is part of it ',1,1,1,'2012-12-03 15:29:36'),(6,'this is just test ','nothing important','this is just test data and never vital ',1,1,1,'2012-12-03 15:29:36'),(7,'testtitle','main idea','sand is everywhere ',3,1,0,'2014-12-03 15:29:36'),(8,'camel in the sand','ouououou','day and night are switching in betwn',4,1,2,'2004-12-03 15:29:36'),(9,'street workout is awesome','push up','you gotta do it everyday',5,1,0,'2005-12-03 15:29:36'),(10,'sherry','love','treat her well',5,0,1,'2019-12-31 15:29:36');
 /*!40000 ALTER TABLE `blog` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -81,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-01-31 16:14:06
+-- Dump completed on 2019-02-02 17:10:46
